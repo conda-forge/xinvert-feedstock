@@ -1,13 +1,13 @@
 {% set name = "xinvert" %}
-{% set version = "0.1.9" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7c706908742ad88c9d2a0176e66a2435a6c8edc2ded2f1248dd1e1d41009333d
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: cd5479a276aee66bf33674ba10394989e246240b136578f8d769453f1ac90f9d
 
 build:
   noarch: python
