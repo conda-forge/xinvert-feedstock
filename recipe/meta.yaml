@@ -1,5 +1,5 @@
 {% set name = "xinvert" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 594ab01c2f9227589fe26539d13ca3fd8dfc1bc709093c0275d7f64512d2ab85
+  sha256: 0a02dd5bc6d2bd03a0d94ade4447dde664791dfb67296d07d7381b1479406c85
 
 build:
   noarch: python
